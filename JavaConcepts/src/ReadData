@@ -1,0 +1,34 @@
+Singleton Class:
+Singleton class allow to create only 1 instance of class
+
+Nested Class:
+Writing a class within another is allowed in Java. The class written within is called the nested class.
+
+Recursion
+Recursion is a basic programming technique you can use in Java, in which a method calls itself to solve some problem.
+
+Multithreading in java is a process of executing multiple threads simultaneously.
+A thread is a lightweight sub-process, the smallest unit of processing. 
+However, we use multithreading than multiprocessing because threads use a shared memory area. 
+
+Java provides Thread class to achieve thread programming. Thread class provides constructors and methods to create and perform operations on a thread.
+
+start()	It is used to start the execution of the thread.
+run()	It is used to do an action for a thread.
+sleep()	It sleeps a thread for the specified amount of time.
+
+Life cycle of a Thread (Thread States)
+
+he life cycle of the thread in java is controlled by JVM. The java thread states are as follows:
+
+New    -Start 
+Runnable  (in runnable state, but thread scheduler didnt picked it yet)
+Running   
+Non-Runnable (Blocked)
+Terminated
+
+There are two ways to create a thread:
+
+By extending Thread class
+By implementing Runnable interface.
+
